@@ -1,5 +1,5 @@
 # Importing essential libraries
-from flask import Flask, render_template, request
+from flask import Flask, request, render_template
 import pickle
 import nltk
 import re
@@ -31,7 +31,7 @@ app = Flask(__name__)
 def home():
 	return render_template('index.html')
 
-@app.route('/result', methods=['POST','GET'])
+@app.route('/result', methods=['POST'])
 def predict():
     if request.method == 'POST':
         message = request.form['message']

@@ -8,8 +8,8 @@ from nltk.stem.porter import PorterStemmer
 nltk.download('stopwords')
 
 
-# Load the Random Forest  classifier model and CountVectorizer object from disk
-filename = 'restaurant-sentiment-rf-model.pkl'
+# Load the Stack model classifier and ntVectorizer object from disk
+filename = 'restaurant-sentiment-stack_model-model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 cv = pickle.load(open('cv-transform.pkl','rb'))
 

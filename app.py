@@ -9,7 +9,7 @@ nltk.download('stopwords')
 
 
 # Load the Stack model classifier and ntVectorizer object from disk
-filename = 'restaurant-sentiment-stack_model-model.pkl'
+filename = 'restaurant-sentiment-rf-model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 cv = pickle.load(open('cv-transform.pkl','rb'))
 

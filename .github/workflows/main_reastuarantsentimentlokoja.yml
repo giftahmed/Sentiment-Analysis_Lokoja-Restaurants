@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'reastuarantsentimentlokoja'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_43E6E58C5E7048EAA517FB48605879E0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F1EF828C2FA546AA8DB67E6D81EFA303 }}
